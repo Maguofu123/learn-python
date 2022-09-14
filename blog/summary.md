@@ -18,9 +18,11 @@
 pickle模块
 
 ## 异常处理
-```try:
+```
+try:
 except [(Error1,Error2)] [as e]:
-else```
+else
+```
 
 `raise`用法
 
