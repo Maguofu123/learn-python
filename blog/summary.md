@@ -16,3 +16,10 @@
 执行完后自动关闭文件
 
 pickle模块
+
+## 异常处理
+```try:
+except [(Error1,Error2)] [as e]:
+else```
+
+`raise`用法
