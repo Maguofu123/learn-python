@@ -30,5 +30,11 @@ else
 2. 异常类名称：raise 后带一个异常类名称，表示引发执行类型的异常。
 3. 异常类名称(描述信息)：在引发指定类型的异常的同时，附带异常的描述信息。
 
+获取异常信息方法：
+sys.exc_info()
+返回一个元组，包括以下三个元素
+type：异常类型的名称，它是 BaseException 的子类（有关 Python 异常类，可阅读《Python常见异常类型》一节）
+value：捕获到的异常实例。
+traceback：是一个 traceback 对象。
 
-
+使用`traceback.print_tb(sys.exc_info()[2])`查看traceback中的内容
