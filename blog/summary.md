@@ -77,3 +77,11 @@ traceback：是一个 traceback 对象。
 
 ***lambda匿名函数***
 `name = lambda [list] : 表达式`
+
+## 迭代器
+迭代器是支持迭代的容器类对象，例如list，tuple等
+要实现迭代器，类中必须实现两个方法
+1. `__next__(self)`返回容器中的下一个元素
+2. `__iter__(self)`返回一个迭代器iterator
+
+`iter()`返回一个迭代器
